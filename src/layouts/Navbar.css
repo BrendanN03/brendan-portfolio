@@ -1,0 +1,178 @@
+.navbarShell {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar {
+  width: min(1120px, calc(100% - 40px));
+  min-height: 72px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.navbar a {
+  color: #0f172a;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+}
+
+.brand strong {
+  display: block;
+  color: #0c4bc9;
+  line-height: 1;
+}
+
+.brandMark {
+  width: 38px;
+  height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #0c4bc9;
+  background: #0c4bc9;
+  color: #ffffff;
+  border-radius: 999px;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+}
+
+.links a {
+  padding: 10px 13px;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.links a.active,
+.links a:hover {
+  color: #0c4bc9;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.links .navCta {
+  margin-left: 6px;
+  border-radius: 999px;
+  padding: 10px 18px;
+}
+
+.links .navLogin {
+  border: 1px solid #c7d7f5;
+  color: #0c4bc9;
+}
+
+.links .navJoin {
+  background: #990000;
+  color: #ffffff;
+}
+
+.links .navJoin:hover {
+  color: #ffffff;
+}
+
+.toggleButton {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+}
+
+.toggleButton svg {
+  font-size: 28px;
+}
+
+.toggleButton button {
+  background-color: transparent;
+  border: none;
+  color: #0f172a;
+  cursor: pointer;
+}
+
+#open {
+  height: 100vh;
+}
+
+#open .links {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media (max-width: 720px) {
+  .navbar {
+    width: min(100% - 28px, 1180px);
+    min-height: 70px;
+  }
+
+  .toggleButton {
+    display: flex;
+  }
+
+  .links {
+    display: none;
+  }
+
+  #open {
+    width: 100%;
+    height: 100vh;
+    padding: 0 14px;
+  }
+
+  #open .navbar {
+    align-items: flex-start;
+    position: relative;
+  }
+
+  #open .brand,
+  #open .toggleButton {
+    height: 70px;
+    display: flex;
+    align-items: center;
+  }
+
+  #open .links {
+    position: absolute;
+    top: 92px;
+    left: 0;
+    right: 0;
+    display: flex;
+    gap: 16px;
+  }
+
+  #open .links a {
+    width: 100%;
+    padding: 12px 6px;
+    font-size: 32px;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #0f172a;
+  }
+
+  #open .links .navCta {
+    width: auto;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 12px 18px;
+  }
+}
+
+@media (min-width: 721px) {
+  .toggleButton {
+    display: none;
+  }
+}
