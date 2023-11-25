@@ -13,7 +13,7 @@ function ProjectDisplay() {
       {project.hasOwnProperty("gamelink") ? (
         project.gamelink
       ) : (
-        <img src={project.image} alt="Project Image" />
+        <img src={project.image} alt="Project" />
       )}
       <p>
         <b>Skills:</b> {project.skills}
