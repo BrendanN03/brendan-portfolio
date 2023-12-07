@@ -23,9 +23,9 @@ function About() {
         <div className="about-text">
           <h2>About Me</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            My name is Brendan Nguyen, and I am a student at the University of Pennsylvania 
+            pursuing a double major in computer science and mathematics. My areas of interest
+            include data science, software engineering, machine learning, and mathematics.
           </p>
         </div>
       </div>

@@ -18,7 +18,7 @@ function Footer() {
           <EmailIcon />
         </a>
       </div>
-      <p> &copy; 2023 bmnguyen.com</p>
+      <p> &copy; 2023 bmnguyen.netlify.app</p>
     </div>
   );
 }

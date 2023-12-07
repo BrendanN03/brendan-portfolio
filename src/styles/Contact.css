@@ -1,0 +1,16 @@
+.about-container {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 61.4vh;
+}
+
+.profile-image {
+  width: auto;
+  height: 400px;
+}
+
+.about-text {
+  margin-left: 20px;
+}

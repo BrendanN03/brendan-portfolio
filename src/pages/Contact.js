@@ -1,15 +1,14 @@
 import React from "react";
+import "../styles/About.css";
 
 function Contact() {
   return (
-    <iframe 
-        width="850" 
-        height="500" 
-        src="https://codehs.com/sandbox/id/diamond-miner-wuZny7/embed/?display_mode=displayOnly&show_file_tree=False" 
-        frameborder="0" 
-        allowfullscreen 
-        class="video-iframe">
-    </iframe>
+    <div className="about-text">
+        <h2>Contact</h2>
+        <p>
+          My LinkedIn and GitHub are linked below in the footer! You can also email me at bmnguyen@seas.upenn.edu.
+        </p>
+    </div>
   );
 }
 
